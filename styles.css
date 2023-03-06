@@ -1,6 +1,22 @@
-main{
+
+/* Your CSS Code here. */
+.flex-container{
 	display:flex;
 	flex-direction:row;
-	flex-wrap:nowrap;overflow-x:auto;
 }
-/* Your CSS Code here. */
+.flex-item1
+{
+	height:50px;
+	width:50px;
+	border:1px solid black;
+	font-size:50;
+}
+.flex-item1{
+	background-color:green;
+}
+.flex-item2{
+	background-color:red;
+}
+.flex-item3{
+	background-color:blue;
+}
